@@ -1,0 +1,16 @@
+<h1>Bashboard</h1>
+<hr>
+<p>
+    Esta página solo funciona si estás autenticado
+</p>
+
+<h4>User Info</h4>
+<h5>Tu usuario es: {{ usuario.name }}</h5>
+<h5>Tu email es: {{ usuario.email }}</h5>
+<pre>
+    {{ usuario | json}}
+</pre>
+
+<button (click)="logout()">
+    Logout
+</button>
