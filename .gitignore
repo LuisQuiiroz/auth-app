@@ -5,7 +5,6 @@
 /tmp
 /out-tsc
 
-/angular-auth-13
 # Only exists if Bazel was run
 /bazel-out
 
